@@ -15,5 +15,16 @@ Primary.args = {
   label: 'Button',
 };
 
+export const Secondary = Template.bind({});
+Secondary.args = {
+  template: 'secondary',
+  label: 'Button',
+};
+
+export const Danger = Template.bind({});
+Danger.args = {
+  template: 'danger',
+  label: 'Button',
+};
 
 export default story;

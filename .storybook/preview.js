@@ -1,5 +1,6 @@
 import { ThemeProvider } from 'styled-components';
 import { lightTheme } from '../styles/theme';
+import 'tailwindcss/tailwind.css';
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
